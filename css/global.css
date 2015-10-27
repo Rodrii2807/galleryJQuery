@@ -1,0 +1,58 @@
+body
+{
+	background-image: url('../images/madera.jpg');
+}
+.wrapper
+{
+	width: 720px;
+	height:310px;
+	margin: 250px auto;
+}
+.gallery
+{
+	width: 640px;
+	height: 301px;
+	position: relative;
+	overflow: hidden;
+}
+.itemsList 
+{
+	position: absolute;
+    width: 2560px;
+	height: 301px;
+	list-style: none;
+	left: 0;
+	margin:0;
+	padding: 0;
+	transition: left ease-in 0.9s; 
+
+}
+
+.itemsList li
+{	
+    float: left;
+    opacity: 0.8;
+	 
+}
+.itemList li,
+.itemsList li img{
+	width: 640px;
+	height: 301px;
+}
+.previousBtn
+{
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	cursor: pointer;
+
+
+}
+.nextBtn
+{
+	position: absolute;
+	top: 140px;
+	right: 50px;
+	cursor: pointer;
+}
+
